@@ -115,6 +115,7 @@ def scatterplot(pred_universe):
     - Scatterplot with hue by race
     - Scatterplot faceted by sex with hue by race
     '''
+    
     sns.lmplot(data=pred_universe, 
                x='prediction_felony', 
                y='prediction_nonfelony',
